@@ -1,7 +1,4 @@
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <br>
   <img width="400" src="./assets/qwik-snippets.png">
@@ -15,9 +12,6 @@ Language and Ecosystem Support for <a href='https://github.com/BuilderIO/qwik'>Q
 <br><br>
 <a href='http://badge.fury.io/js/vscode-qwik-snippets'>
 <img src='https://badge.fury.io/js/vscode-qwik-snippets.svg' alt='Qwik Snippets'>
-</a>
-<a href='#contributors'>
-<img src='https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square' alt='Contributors'>
 </a>
 
 </div>
@@ -52,7 +46,6 @@ Language and Ecosystem Support for <a href='https://github.com/BuilderIO/qwik'>Q
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [Related Links](#related-links)
-- [Contributors](#contributors)
 - [Issues](#issues)
 
 </details>
@@ -160,8 +153,7 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 <a href="#toc"><small>Back to Top</small>ꜛ</a>
 
 ### Styling
-> Styling is an important part of the design of a web application. Qwik is responsible for loading the style information when a component is mounted. Use `useStyles$()` to tell Qwik which style should be loaded.
-> 
+
 | Snippet                      | Purpose                                                              |
 | ---------------------------- | -------------------------------------------------------------------- |
 | `q-useStyles$`         | Qwik is responsible for loading the style information when a component is mounted. Use useStyles$() to tell Qwik which style should be loaded.      |
@@ -170,9 +162,6 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 <a href="#toc"><small>Back to Top</small>ꜛ</a>
 
 ### $ Optimizer
-> Qwik's philosophy is to delay loading code for as long as possible. To do that, Qwik relies on Optimizer to re-arrange the code for lazy loading. The Optimizer is code level transformation that runs as part of the rollup. (Optimizer is written in Rust (and available as WASM) for instant performance)
->
-> The Optimizer looks for `$` and applies a transformation that extracts the expression following the `$` and turns it into a lazy-loadable and importable symbol.
 
 | Snippet                      | Purpose                                                              |
 | ---------------------------- | -------------------------------------------------------------------- |
@@ -251,7 +240,7 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 <a href="#toc"><small>Back to Top</small>ꜛ</a>
 
 ### Authoring Content
-> Page content can be created using Qwik components. The component representing the content should be exported as a default export.
+
 > 
 | Snippet                      | Purpose                                                              |
 | ---------------------------- | -------------------------------------------------------------------- |
@@ -267,7 +256,7 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 <a href="#toc"><small>Back to Top</small>ꜛ</a>
 
 ### Integrations
-> React, Partytown, Tailwind
+
 > 
 | Snippet                      | Purpose                                                              |
 | ---------------------------- | -------------------------------------------------------------------- |
@@ -288,9 +277,6 @@ Alternatively, press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (macOS) to
 <a href="#toc"><small>Back to Top</small>ꜛ</a>
 
 ### Prefetching
-> The goal of Qwik's prefetching is not to prefetch the entire application, but to have already prefetched and cached what's possible at that time. When the Qwik optimizer breaks apart the application, it's able to understand possible user interactions. And from this, it's just as important that it's able to understand what's not possible from user interaction.
-
-
 
 | Snippet                      | Purpose                                                              |
 | ---------------------------- | -------------------------------------------------------------------- |
@@ -387,33 +373,6 @@ We love contributions! Check out our [contributing docs](./contributing/CONTRIBU
   
 <a href="#toc"><small>Back to Top</small>ꜛ</a>
 
-## Contributors
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/reemardelarosa"><img src="https://avatars.githubusercontent.com/u/4918140?v=4?s=100" width="100px;" alt="John Reemar Dela Rosa"/><br /><sub><b>John Reemar Dela Rosa</b></sub></a><br /><a href="https://github.com/qwik-design/vscode-qwik-snippets/qwik.design/vscode-qwik-snippets/commits?author=reemardelarosa" title="Documentation">📖</a> <a href="https://github.com/qwik-design/vscode-qwik-snippets/qwik.design/vscode-qwik-snippets/commits?author=reemardelarosa" title="Code">💻</a> <a href="#design-reemardelarosa" title="Design">🎨</a> <a href="#content-reemardelarosa" title="Content">🖋</a> <a href="#maintenance-reemardelarosa" title="Maintenance">🚧</a> <a href="#ideas-reemardelarosa" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/the-r3aper7"><img src="https://avatars.githubusercontent.com/u/80447788?v=4?s=100" width="100px;" alt="Sai Srikar Dumpeti"/><br /><sub><b>Sai Srikar Dumpeti</b></sub></a><br /><a href="https://github.com/qwik-design/vscode-qwik-snippets/qwik.design/vscode-qwik-snippets/commits?author=the-r3aper7" title="Documentation">📖</a> <a href="https://github.com/qwik-design/vscode-qwik-snippets/qwik.design/vscode-qwik-snippets/commits?author=the-r3aper7" title="Code">💻</a></td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td align="center" size="13px" colspan="7">
-        <img src="https://raw.githubusercontent.com/all-contributors/all-contributors-cli/1b8533af435da9854653492b1327a23a4dbd0a10/assets/logo-small.svg">
-          <a href="https://all-contributors.js.org/docs/en/bot/usage">Add your contributions</a>
-        </img>
-      </td>
-    </tr>
-  </tfoot>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Issues
 
